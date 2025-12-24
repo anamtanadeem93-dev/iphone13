@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 13 Pro</title>
+
+<style>
+body{
+    background:#000;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.header img{
+    width:100px;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.text{
+    max-width:500px;
+}
+
+.text h1{
+    font-size:60px;
+}
+
+.text h1 span{
+    color:rgb(32,121,121);
+}
+
+.text h2{
+    font-size:40px;
+    margin-top:20px;
+}
+
+.text p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+button{
+    background:rgb(32,121,121);
+    color:#fff;
+    border:none;
+    border-radius:20px;
+    width:140px;
+    height:40px;
+    margin-right:15px;
+}
+
+.button2{
+    background:#000;
+    border:1px solid #fff;
+}
+
+/* IMAGE */
+.hero img{
+    width:100%;
+    max-width:450px;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width:768px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .text h1{
+        font-size:40px;
+    }
+
+    .text h2{
+        font-size:28px;
+    }
+
+    nav{
+        margin-top:20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <img src="Apple.jpg" alt="">
+    <nav>
+        <a href="iphone.html">iPhone 13 Pro</a>
+        <a href="">iPhone 13</a>
+        <a href="iWatch.html">iWatch 7</a>
+        <a href="">iPad</a>
+        <a href="">iTV+</a>
+        <a href="">iArcade</a>
+    </nav>
+</div>
+
+<div class="hero">
+    <div class="text">
+        <h1>iPhone 13 <span>PRO</span></h1>
+        <h2>PRO CAMERAS <br> PRO PERFORMANCE</h2>
+        <p>
+            The iPhone 13 Pro is a powerful smartphone featuring
+            Apple’s A15 Bionic chip, a bright 120Hz ProMotion display,
+            and a versatile triple-camera system with improved low-light
+            performance.
+        </p>
+
+        <div class="buttons">
+            <button>Buy now</button>
+            <button class="button2">Learn more</button>
+        </div>
+    </div>
+
+    <img src="iphone13.jpg" alt="">
+</div>
+
+</body>
+</html>
